@@ -19,9 +19,5 @@
         /// Gets or sets the domain name to use as distinguished name in conjuction with the username
         /// </summary>
         public string Domain { get; set; }
-        public string DomainComponent { get; set; }
-
-        public string AdminDn { get; set; }
-        public string AdminPassword { get; set; }
     }
 }
